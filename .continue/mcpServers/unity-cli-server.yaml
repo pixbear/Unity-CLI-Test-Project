@@ -1,0 +1,9 @@
+name: Unity CLI MCP Server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: unity-cli-server
+    command: "/Users/lee/.unity/bin/unity"
+    args:
+      - mcp
+    env: {}
