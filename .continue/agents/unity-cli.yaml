@@ -1,0 +1,13 @@
+name: Unity CLI
+version: 1.0.0
+schema: v1
+models:
+  - name: Qwen2.5-coder:7B
+    provider: ollama
+    model: qwen2.5-coder:7b
+    contextLength: 64000
+    roles:
+      - chat
+      - edit
+      - apply
+      - autocomplete
