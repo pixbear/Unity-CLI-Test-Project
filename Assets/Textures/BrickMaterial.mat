@@ -1,0 +1,10 @@
+{
+  "fileType": "Material",
+  "material": {
+    "name": "BrickMaterial",
+    "shader": "Standard",
+    "renderQueue": 2450,
+    "color": [0.6, 0.4, 0.2, 1],
+    "mainTexture": "Assets/Textures/BrickTexture.png"
+  }
+}

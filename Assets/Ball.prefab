@@ -1,0 +1,27 @@
+{
+  "fileType": "Prefab",
+  "prefab": {
+    "name": "Ball",
+    "position": [0, 0, 0],
+    "rotation": [0, 0, 0],
+    "scale": [1, 1, 1],
+    "components": [
+      {
+        "type": "UnityEngine.SphereCollider",
+        "isTrigger": false,
+        "radius": 0.5
+      },
+      {
+        "type": "UnityEngine<Rigidbody",
+        "useGravity": false,
+        "mass": 1,
+        "drag": 0,
+        "angularDrag": 0,
+        "constraints": 0
+      },
+      {
+        "type": "BallPhysics"
+      }
+    ]
+  }
+}

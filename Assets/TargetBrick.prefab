@@ -1,0 +1,20 @@
+{
+  "fileType": "Prefab",
+  "prefab": {
+    "name": "TargetBrick",
+    "position": [-3, 0, 5],
+    "rotation": [0, 0, 0],
+    "scale": [1, 1, 1],
+    "components": [
+      {
+        "type": "UnityEngine.BoxCollider",
+        "isTrigger": true,
+        "size": [1, 1, 1]
+      },
+      {
+        "type": "UnityEngine.MeshRenderer",
+        "material": "Assets/Textures/BrickMaterial.mat"
+      }
+    ]
+  }
+}
